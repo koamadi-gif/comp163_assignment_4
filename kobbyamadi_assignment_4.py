@@ -82,6 +82,29 @@ print(f"Updated Student Status:")
 print(f"Study Hours: {study_hours}")
 print(f"Complex Condition Check: {complex_conditions}")
 
+print("\n=================================")
+print("         FINAL ANALYSIS")
+print("=================================")
+
+
+if type(course_credits) is int:
+    credit_check = "PASS: Required credits are met."
+elif type(course_credits is not int):
+    credit_check = "FAIL: Not enough required credits."
+
+print(f"Data Integrity Check: {credit_check}")
+
+
+print(f"Final Study Hours: {study_hours} hrs/week")
+print(f"Final Social Points: {social_points} pts")
+print(f"Final Stress Level: {stress_level}%")
+print(f"Complex Condition Met: {complex_conditions}")
+
+
+
+
+
+
 
 
 
